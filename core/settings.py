@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #'grappelli',
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'products',
 ]
+
+#GRAPPELLI_ADMIN_TITLE = 'Sistema de Gestão de Produtos'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
